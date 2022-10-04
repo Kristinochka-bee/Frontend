@@ -1,0 +1,56 @@
+h1 {
+
+text-align: left;
+color: black;
+background-color: darkgrey;
+}
+
+h2 {
+
+    text-align: center;
+    color: black;
+    
+}
+
+img {
+    width: 230px;
+    padding: 20px ;
+
+}
+
+.foto {
+float: left;
+
+}
+
+body {
+    border: 4px solid pink;
+    background-color: antiquewhite;
+}
+
+div {
+
+    margin: 50px;
+    padding-top: 20px;
+    
+
+}
+
+/*.main {
+    
+    border:4px solid pink;
+}*/
+ 
+.personal_datas {
+
+    border: 2px solid pink;
+}
+
+.contakt_information {
+
+    border: 2px solid pink;
+}
+
+.picture {
+    float: right;
+}
