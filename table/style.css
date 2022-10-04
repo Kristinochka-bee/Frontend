@@ -1,0 +1,45 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+td {
+    text-align: center;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.fiolet {
+    background-color:palevioletred;
+}
+
+.green {
+    background-color: greenyellow;
+}
+
+.footer{
+    background-color:#3498db ;
+    height: 100px;
+    margin-top: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.footer img{
+    height: 50px;
+    margin: 10px;
+    
+}
+
+.timetable {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
