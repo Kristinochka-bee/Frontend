@@ -1,0 +1,42 @@
+//1 Напишите функцию, max_number, которая принимает два аргумента с числовым значением и возвращает большее значение.
+
+function max_number(x,y){
+    if(x > y){
+        return x;
+    }else{
+        return y;
+    }
+}
+console.log(max_number(33,66))
+
+//2 Напишите функцию, range, которая принимает два аргумента (n и m) с числовым значением и возвращает массив с числами от n до m -1.
+
+function range(n , m){
+    let arr = [];
+    for(let i = n; i <= m; i++){
+        arr.push(i);
+    }
+    return arr;
+}
+console.log(range(0, 10))
+
+
+//3 Напишите функцию, num_count, которая в качестве аргумента принимает целое число и возвращает количество цифр в этом числе.
+
+function num_count(x){
+        console.log(x.length)
+}
+num_count('9988')
+
+
+
+//4 Напишите функцию, get_hypotenuse, которая в качестве аргумента принимает два числа (длины катетов) и возвращает гипотенузу.
+
+function get_hypotenuse(x, y){
+    let c = 0;
+   
+        c = Math.sqrt(x*x + y*y);
+        
+    return c;
+}
+console.log(get_hypotenuse(2, 5))
